@@ -1,0 +1,48 @@
+Unable to capture context for thread 29524 in process 19252, can not generate back trace
+Unable to capture context for thread 17120 in process 19252, can not generate back trace
+Unable to capture context for thread 29864 in process 19252, can not generate back trace
+Unable to capture context for thread 24916 in process 19252, can not generate back trace
+Unable to capture context for thread 26692 in process 19252, can not generate back trace
+Unable to capture context for thread 20336 in process 19252, can not generate back trace
+Unable to capture context for thread 900 in process 19252, can not generate back trace
+Exception at PC 0x00007FFA63ECBB93
+Printing stacktrace...
+
+Unable to capture context for thread 17120 in process 19252, can not generate back trace
+Unable to capture context for thread 29864 in process 19252, can not generate back trace
+Unable to capture context for thread 25024 in process 19252, can not generate back trace
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+[0]  [0x00007FFA63ECBB93]
+[1]  [0x00007FFA63ECBB93]
+[2]  [0x00007FFA63ECB4A1]
+[3]  [0x00007FFA63ECB459]
+[4]  [0x00007FFA63EB19FE]
+[5]  [0x00007FFA63EB0ED1]
+[6]  [0x00007FFA63EB0D76]
+[7]  [0x00007FFA63E579F6]
+[8]  [0x00007FFA63E47AFB]
+[9]  [0x00007FFA63F6E90A]
+[10]  [0x00007FFA63F89F87]
+[11]  [0x00007FFA63F8A05F]
+[12] (BaseThreadInitThunk+0x1d) [0x00007FFB31EA259D]
+[13] (RtlUserThreadStart+0x28) [0x00007FFB3334AF38]
+Done
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C
+Exception at PC 0x00007FFB307EFB4C

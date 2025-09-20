@@ -1,0 +1,91 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Dec 11 21:52:22 2024
+| Host         : DESKTOP-D2C712Q running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file dcpu_onboard_control_sets_placed.rpt
+| Design       : dcpu_onboard
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    38 |
+| Unused register locations in slices containing registers |    19 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             530 |          176 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            1075 |          481 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------+-------------------------------------------------------------+------------------+------------------+----------------+
+|      Clock Signal      |                        Enable Signal                        | Set/Reset Signal | Slice Load Count | Bel Load Count |
++------------------------+-------------------------------------------------------------+------------------+------------------+----------------+
+|  seg7x16_inst/seg7_clk |                                                             | reset_IBUF       |                2 |              3 |
+|  clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_ID_EX_INST/data_out_reg[31]      | reset_IBUF       |                2 |              4 |
+|  clk_in_IBUF_BUFG      | cnt[14]_i_1_n_0                                             | reset_IBUF       |                5 |             15 |
+|  clk_in_IBUF_BUFG      |                                                             | reset_IBUF       |                5 |             22 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/E[0]                 | reset_IBUF       |               17 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[10][31][0]  | reset_IBUF       |               12 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[11][31][0]  | reset_IBUF       |               10 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[14][31][0]  | reset_IBUF       |               12 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[12][31][0]  | reset_IBUF       |               10 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[13][31][0]  | reset_IBUF       |               12 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[15][31][0]  | reset_IBUF       |               17 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[16][31][0]  | reset_IBUF       |               14 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[17][31][0]  | reset_IBUF       |               17 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[18][31][0]  | reset_IBUF       |               13 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[19][31][0]  | reset_IBUF       |               15 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[1][31]_2[0] | reset_IBUF       |               10 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[20][31][0]  | reset_IBUF       |               11 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[21][31][0]  | reset_IBUF       |               16 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[22][31][0]  | reset_IBUF       |               20 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[23][31][0]  | reset_IBUF       |               20 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[24][31][0]  | reset_IBUF       |               12 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[25][31][0]  | reset_IBUF       |               15 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[26][31][0]  | reset_IBUF       |               12 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[27][31][0]  | reset_IBUF       |               13 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[28][31][0]  | reset_IBUF       |               17 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[29][31][0]  | reset_IBUF       |               13 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[2][31][0]   | reset_IBUF       |               11 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[30][31][0]  | reset_IBUF       |               19 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[3][31][0]   | reset_IBUF       |               11 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[4][31][0]   | reset_IBUF       |               14 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[5][31][0]   | reset_IBUF       |               12 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[6][31][0]   | reset_IBUF       |               14 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[7][31][0]   | reset_IBUF       |               19 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[8][31][0]   | reset_IBUF       |               21 |             32 |
+| ~clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_MEM_WB_INST/regs_reg[9][31][0]   | reset_IBUF       |               19 |             32 |
+|  clk_cpu_BUFG          | cpu_top_inst/cpu_inst/regs_EX_MEM_INST/E[0]                 | reset_IBUF       |               11 |             32 |
+|  clk_in_IBUF_BUFG      | enable_IBUF                                                 | reset_IBUF       |               15 |             32 |
+|  clk_cpu_BUFG          |                                                             | reset_IBUF       |              169 |            505 |
++------------------------+-------------------------------------------------------------+------------------+------------------+----------------+
+
+

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Dec 04 21:59:05 2024
+# Process ID: 16184
+# Current directory: D:/Static_Pipeline_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4132 D:\Static_Pipeline_CPU\Static_Pipeline_CPU.xpr
+# Log file: D:/Static_Pipeline_CPU/vivado.log
+# Journal file: D:/Static_Pipeline_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Static_Pipeline_CPU/Static_Pipeline_CPU.xpr
+update_compile_order -fileset sources_1

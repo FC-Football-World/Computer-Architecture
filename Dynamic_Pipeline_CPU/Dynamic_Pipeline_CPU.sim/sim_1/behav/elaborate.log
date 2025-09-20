@@ -1,0 +1,36 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 5d0dfedec04340b4b722bf5a7060c6cd --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_10 -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_top_tb_behav xil_defaultlib.cpu_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC_reg
+Compiling module xil_defaultlib.regs_IF_ID
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.conflict_judge
+Compiling module xil_defaultlib.regs_ID_EX
+Compiling module xil_defaultlib.neg32
+Compiling module xil_defaultlib.add1
+Compiling module xil_defaultlib.cla4
+Compiling module xil_defaultlib.add4_default
+Compiling module xil_defaultlib.add16_default
+Compiling module xil_defaultlib.add32
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.luislt
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.regs_EX_MEM
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.regs_MEM_WB
+Compiling module xil_defaultlib.regfiles
+Compiling module xil_defaultlib.cpu
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.cpu_top
+Compiling module xil_defaultlib.cpu_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_top_tb_behav

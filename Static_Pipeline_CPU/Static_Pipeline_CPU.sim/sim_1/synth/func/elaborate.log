@@ -1,0 +1,44 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 5e3521de8ed543c799050e9063b25199 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot top_tb_func_synth xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.ffsrce_fdpe
+Compiling module unisims_ver.FDPE
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module xil_defaultlib.seg7x16
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.dist_mem_gen_0_rom
+Compiling module xil_defaultlib.dist_mem_gen_0_dist_mem_gen_v8_0...
+Compiling module xil_defaultlib.dist_mem_gen_0_dist_mem_gen_v8_0...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.imem
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.pcpu
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_func_synth

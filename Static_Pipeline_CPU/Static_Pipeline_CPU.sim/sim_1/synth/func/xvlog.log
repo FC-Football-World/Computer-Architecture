@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Static_Pipeline_CPU/Static_Pipeline_CPU.sim/sim_1/synth/func/top_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-311] analyzing module pcpu
+INFO: [VRFC 10-311] analyzing module seg7x16
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0_dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0_dist_mem_gen_v8_0_10_synth
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0_rom
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Static_Pipeline_CPU/Static_Pipeline_CPU.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
